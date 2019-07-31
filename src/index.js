@@ -25,7 +25,7 @@ async function busy_hours(place_id, key) {
         let first = eval(script),
             second = eval(first[3][6].replace(")]}'", ""));
 
-        return second[0][1][0][14][84];
+        return second[6][84];
     };
 
     const process_html = html => {
